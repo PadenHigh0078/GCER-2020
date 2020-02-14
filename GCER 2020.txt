@@ -1,0 +1,176 @@
+#include <kipr/botball.h>
+
+#include <linefollow.h>
+
+int main()
+
+{
+
+    printf("Hello World\n");
+
+ 
+
+    cmpc(2);
+
+     enable_servos();
+
+   
+
+    set_servo_position(3,300);
+
+ 
+
+   
+
+      mav(0,400);
+
+    mav(3,-900);
+
+    msleep(1210);
+
+   
+
+   mav(0,1000);
+
+    mav(3,1000);
+
+    msleep(3000);
+
+   
+
+   
+
+ 
+
+     mav(0,-900);
+
+    mav(3,-950);
+
+    msleep(4400);
+
+   
+
+ 
+
+    set_servo_position(3,1200);
+
+    msleep(500);
+
+   
+
+        mav(0,1400);
+
+    mav(3,1370);
+
+    msleep(1900);
+
+   
+
+   
+
+   
+
+ 
+
+     mav(3,1000);
+
+    mav(0,-1000);
+
+    msleep(1100);
+
+  
+
+     mav(3,1000);
+
+    mav(0,1000);
+
+    msleep(1000);
+
+   
+
+      mav(3,1000);
+
+    mav(0,-1000);
+
+    msleep(2000);
+
+ 
+
+      mav(3,1000);
+
+    mav(0,1000);
+
+    msleep(1000);
+
+   
+
+    mav(3,1000);
+
+    mav(0,-1000);
+
+    msleep(500);
+
+       
+
+     
+
+   
+
+      mav(3,1000);
+
+    mav(0,1000);
+
+    msleep(3000);
+
+   
+
+        mav(3,1000);
+
+    mav(0,-1000);
+
+    msleep(2000);
+
+  
+
+    mav(3,-1000);
+
+    mav(0,-1000);
+
+    set_servo_position(3,300);
+
+    msleep(1000);
+
+   
+
+      mav(3,1000);
+
+    mav(0,1000);
+
+    msleep(2000);
+
+   
+
+    mav(3,500);
+
+    mav(0,-1000);
+
+    msleep(2000);
+
+   
+
+       mav(3,1000);
+
+    mav(0,900);
+
+    msleep(3000);
+
+   
+
+ 
+
+   
+
+    return 0;
+
+}
+
